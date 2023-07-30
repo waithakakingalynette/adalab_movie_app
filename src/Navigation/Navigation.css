@@ -1,0 +1,81 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+.yellow-link, .yellow-button {
+  text-decoration: none;
+  color: #cbd811;
+  font-size: 18px;
+  padding: 8px 16px;
+  margin-top: 0.8%;
+}
+
+.yellow-link:hover {
+  border-bottom: 2px solid yellow;
+  transition: border-bottom 0.3s ease;
+}
+
+.yellow-button {
+  background-color: yellow;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in-button{
+  background-color: yellow;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20%;
+  border-radius: 20px;
+  width:150px;
+  height: 40px;
+  margin-top: 1.2%;
+}
+
+.movie {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-top: 1.2%;
+}
+
+.movie::first-letter {
+  color: yellow;
+}
+
+.list{
+  color: #fff;
+  margin-top: 1.2%;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: black;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fbff00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
