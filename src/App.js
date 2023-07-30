@@ -1,27 +1,45 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import GetMovies from './Components/getMovies';
 import Navigation from './Navigation';
-import Search from './Navigation/Search';
-import Home from './Navigation/Home';
-import MyList from './Navigation/MyList';
-import SignIn from './Navigation/SignIn';
 
 function App() {
   return (
-    <Router>
+    
       <div>
-      <Navigation />
-        <GetMovies />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/mylist" element={<MyList />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/signin" element={<SignIn />} />
-        </Routes>
+     <Navigation/>
+     <GetMovies/>
+      <BrowserRouter>
+      <Routes>
+        {/* <Route index element={<Login/>}/> */}
+        <Route path='/home' element={<GetMovies/>}/>
+        {/* <Route path='/product' element={<Products/>}/>
+        <Route path='/productdetails/:productId' element={<Productdetails/>}/> */}
+      </Routes>
+      </BrowserRouter>
       </div>
-    </Router>
+  
   );
 }
 
 export default App;
+
+// import './App.css';
+// import NavigationBar from './Navigation/search-bar';
+// import { BrowserRouter,Routes,Route } from 'react-router-dom';
+// import GetMovies from './Components/GetMovies';function App() {
+//   return (
+//     <div>
+//     <NavigationBar/>
+//     <GetMovies/>
+//       <BrowserRouter>
+//       <Routes>
+//         {/* <Route index element={<Login/>}/> */}
+//         <Route path='/home' element={<GetMovies/>}/>
+//         {/* <Route path='/product' element={<Products/>}/>
+//         <Route path='/productdetails/:productId' element={<Productdetails/>}/> */}
+//       </Routes>
+//       </BrowserRouter>
+//     </div>
+//   );
+// }export default App;
