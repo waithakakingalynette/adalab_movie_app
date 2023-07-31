@@ -1,15 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import GetMovies from './Components/getMovies';
+import React from "react";
 import Navigation from './Navigation';
+import GetMovies from "./Components/getMovies";
+import Movies from "./Carousel";
+import Category from "./Components/Category";
+import MovieCategory from "./Components/Category/movieCategory";
 
-function App() {
+const App = () => {
   return (
       <div>
-      <Navigation/>
-      <GetMovies/>
+        <Navigation/>
+        <Movies/>
+        <Category/>
+        <MovieCategory/>
+        <GetMovies/> 
       </div>
-      );
-}
+  );
+};
 
 export default App;

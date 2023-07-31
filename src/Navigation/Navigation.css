@@ -44,13 +44,13 @@ input[type="text"] {
 }
 
 
-.yellow-link {
+.home {
   list-style: none;
   display: inline-block;
   margin-right: 100px;
 }
 
-.yellow-link a {
+.home a {
   text-decoration: none;
   color: #cbd811;
   font-size: 18px;
@@ -104,119 +104,3 @@ input[type="text"] {
   margin-top: 0.8%;
 
 }
-
-/* .navigation {
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
-  padding: 10px;
-}
-
-.nav-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.yellow-link {
-  text-decoration: none;
-  color: #cbd811;
-  font-size: 18px;
-  padding: 8px 16px;
-  margin-top: 0.6%;
-  margin-left: 200px;
-}
-
-.yellow-link:hover {
-  border-bottom: 2px solid yellow;
-  transition: border-bottom 0.3s ease;
-}
-
-.sign-in-button {
-  margin-left: 100px;
-  background-color: #fbff00;
-  width: 100px;border-radius: 20px;
-  border-radius: 20%;
-  border-radius: 20px;
-  border: none;
-  height: 30px;
-  color: #fff;
-  font-size: 20px;
-  margin-top: 0.8%;
-
-}
-
-.movie ::first-letter {
-  font-size: 18px;
-  color: rgb(203, 235, 21);
-  margin-top: 0.8%;
-}
-
-.movie {
-  color: rgb(238, 238, 232); 
-  font-size: 18px;
-  margin-top: 0.8%;
-}
-
-.list {
-  color: rgb(247, 241, 241);
-  margin-top: 0.9%;
-  margin-left: 100px;
-}
-
-.search_button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border-color: #0a0a0a;
-  background-color: #0a0a0a;
-  color: #fff;
-  border: none;
-  border-radius: 20%;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-left: 200px;
-  width: 300px;
-  margin-top: 0.8%;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.search-input {
-  padding: 8px;
-  font-size: 16px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-  flex: 1;
-}
-
-.search-button {
-  background-color: #fbff00;
-  height: 30px;
-  width: 100px;
-  border: none;
-  border-radius: 20%;
-  border-radius: 20px;
-  margin-top: 0.8%;
-}
-
-.search-button:hover {
-  background-color: #0056b3;
-}
-
-.search-results {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.search-results li {
-  margin-bottom: 5px;
-  font-size: 16px;
-} */
